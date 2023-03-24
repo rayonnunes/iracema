@@ -2,7 +2,6 @@
   "name": "iracema",
   "version": "0.1.0",
   "description": "A system design born from ceara",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rayonnunes/iracema.git"
