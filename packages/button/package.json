@@ -1,6 +1,6 @@
 {
   "name": "@iracema/button",
-  "version": "0.1.4",
+  "version": "0.1.0",
   "description": "button",
   "author": "Rayon Lindraz <rayonnunes@hotmail.com>",
   "homepage": "https://github.com/rayonnunes/iracema/tree/main/packages/button#readme",
@@ -51,5 +51,5 @@
     "typescript": "^5.0.2",
     "vite": "^4.2.1"
   },
-  "gitHead": "11bf0f750a1cc03b55f9ba77cfb5ad9422a6d05d"
+  "gitHead": "c57d8934091dee18774c78550a8aacc60025b8c2"
 }
