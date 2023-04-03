@@ -1,5 +1,5 @@
 {
-  "name": "button",
+  "name": "@iracema/button",
   "version": "0.2.0",
   "description": "button",
   "author": "Rayon Lindraz <rayonnunes@hotmail.com>",
@@ -53,5 +53,5 @@
     "typescript": "^5.0.2",
     "vite": "^4.2.1"
   },
-  "gitHead": "590f5d420cade893581d9fcf619220d5da1ee0b8"
+  "gitHead": "62c133f9cec7a420fd4eaea3fd2a51ae4687a6ae"
 }
