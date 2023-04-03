@@ -19,7 +19,6 @@
   },
   "scripts": {
     "build": "rimraf dist && vite build",
-    "cleanbuild": "rm -r node_modules && npm install && tsc",
     "test": "jest"
   },
   "bugs": {
@@ -46,6 +45,7 @@
     "jest": "^29.5.0",
     "jest-environment-jsdom": "^29.5.0",
     "rimraf": "^4.4.1",
+    "styled-components": "^5.3.9",
     "ts-jest": "^29.0.5",
     "ts-loader": "^9.4.2",
     "tslib": "^2.5.0",

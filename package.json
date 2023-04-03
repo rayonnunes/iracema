@@ -20,6 +20,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "storybook": "npm --prefix storybook run storybook"
+  },
   "devDependencies": {
     "lerna": "^6.6.1"
   }
