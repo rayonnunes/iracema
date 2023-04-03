@@ -51,7 +51,8 @@
     "ts-loader": "^9.4.2",
     "tslib": "^2.5.0",
     "typescript": "^5.0.2",
-    "vite": "^4.2.1"
+    "vite": "^4.2.1",
+    "vite-plugin-dts": "^2.1.0"
   },
   "gitHead": "62c133f9cec7a420fd4eaea3fd2a51ae4687a6ae"
 }
