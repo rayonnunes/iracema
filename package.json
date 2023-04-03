@@ -1,15 +1,10 @@
 {
   "name": "iracema",
-  "version": "0.1.4",
   "description": "A system design born from ceara",
   "private": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rayonnunes/iracema.git"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
   },
   "keywords": [
     "iracema",

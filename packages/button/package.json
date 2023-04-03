@@ -1,11 +1,11 @@
 {
-  "name": "@iracema/button",
+  "name": "button",
   "version": "0.1.9",
   "description": "button",
   "author": "Rayon Lindraz <rayonnunes@hotmail.com>",
   "homepage": "https://github.com/rayonnunes/iracema/tree/main/packages/button#readme",
   "license": "ISC",
-  "main": "index.ts",
+  "main": "dist/button.js",
   "directories": {
     "dist": "dist",
     "test": "__tests__"
@@ -53,5 +53,5 @@
     "typescript": "^5.0.2",
     "vite": "^4.2.1"
   },
-  "gitHead": "242b683f00ff9fedbaed7f844de15c2dd4226789"
+  "gitHead": "05bc0c90d16769aff2d95793ad28637210242953"
 }
