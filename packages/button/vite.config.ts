@@ -1,15 +1,16 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import dts from 'vite-plugin-dts'
+import typescript from '@rollup/plugin-typescript';
 
 export default defineConfig({
-  plugins: [react(), dts()],
+  plugins: [
+    react(),
+  ],
   build: {
     target: 'es2015',
     lib: {
       entry: 'src/index.ts',
       formats: ['es', 'cjs'],
-      fileName: 'index',
       name: 'button',
     },
     rollupOptions: {
@@ -20,6 +21,14 @@ export default defineConfig({
           'react-dom': 'ReactDOM',
         },
       },
+      plugins: [
+        typescript({
+          declaration: true,
+          declarationDir: './dist/types',
+          rootDir: 'src',
+          exclude: ['**/__tests__/*', '**/*.test.ts', '**/*.test.tsx']
+        })
+      ]
     },
   },
 });
