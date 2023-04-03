@@ -9,7 +9,8 @@ export default defineConfig({
     lib: {
       entry: 'src/index.ts',
       formats: ['es', 'cjs'],
-      name: 'Button',
+      fileName: 'index',
+      name: 'button',
     },
     rollupOptions: {
       external: ['react', 'react-dom'],
