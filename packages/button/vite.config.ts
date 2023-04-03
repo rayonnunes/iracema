@@ -6,7 +6,7 @@ export default defineConfig({
   build: {
     target: 'es2015',
     lib: {
-      entry: 'src/index.tsx',
+      entry: 'src/index.ts',
       formats: ['es', 'cjs'],
       name: 'Button',
     },

@@ -1,6 +1,6 @@
 {
   "name": "iracema",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "description": "A system design born from ceara",
   "private": false,
   "repository": {
@@ -26,6 +26,6 @@
     "packages/*"
   ],
   "devDependencies": {
-    "lerna": "^6.5.1"
+    "lerna": "^6.6.1"
   }
 }
