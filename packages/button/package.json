@@ -40,12 +40,13 @@
     "@types/jest": "^29.5.0",
     "@types/react": "^18.0.29",
     "@types/react-dom": "^18.0.11",
+    "@types/styled-components": "^5.1.28",
     "@vitejs/plugin-react": "^3.1.0",
     "babel-jest": "^29.5.0",
     "jest": "^29.5.0",
     "jest-environment-jsdom": "^29.5.0",
     "rimraf": "^4.4.1",
-    "styled-components": "^5.3.9",
+    "styled-components": "^5.3.11",
     "ts-jest": "^29.0.5",
     "ts-loader": "^9.4.2",
     "tslib": "^2.5.0",
@@ -53,5 +54,8 @@
     "vite": "^4.2.1",
     "vite-plugin-dts": "^2.1.0"
   },
-  "gitHead": "62c133f9cec7a420fd4eaea3fd2a51ae4687a6ae"
+  "gitHead": "62c133f9cec7a420fd4eaea3fd2a51ae4687a6ae",
+  "dependencies": {
+    "@iracema/theme": "^0.2.4"
+  }
 }
