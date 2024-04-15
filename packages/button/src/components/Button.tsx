@@ -1,11 +1,11 @@
 import React, { ButtonHTMLAttributes } from "react";
-import * as S from './Button.styled'
+import { Button as SButton } from './Button.styled'
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {}
 
 function Button(props: ButtonProps) {
   const { children, onClick } = props;
-  return <S.Button onClick={onClick}>{children}</S.Button>;
+  return <SButton onClick={onClick}>{children}</SButton>;
 }
 
 export default Button;
