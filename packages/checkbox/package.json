@@ -1,6 +1,6 @@
 {
   "name": "@iracema/checkbox",
-  "version": "0.2.4",
+  "version": "0.3.0",
   "description": "checkbox",
   "author": "Rayon Lindraz <rayonnunes@hotmail.com>",
   "homepage": "https://github.com/rayonnunes/iracema/tree/main/packages/checkbox#readme",
@@ -56,6 +56,6 @@
   },
   "gitHead": "62c133f9cec7a420fd4eaea3fd2a51ae4687a6ae",
   "dependencies": {
-    "@iracema/theme": "^0.2.4"
+    "@iracema/theme": "^0.3.0"
   }
 }
